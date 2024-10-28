@@ -13,9 +13,22 @@ The Real-Time AR Clothing Try-On project aims to create an interactive web appli
      #Checking Deployment Server
           *npm run dev
 # Installing dependencies for:
+     #Installing Tailwind css
+          *npm install -D tailwindcss postcss autoprefixer
+          *Creating tailwind config file
+          *Adding tailwind directives
+             @tailwind base;
+             @tailwind components;
+             @tailwind utilities;
+
+# Creating A Landing Page
+     #Setting Up Routing
+          *npm install react-router-dom
+     #Creating LandingPage.tsx in src
+
+
+# Setting Up react-webcam
      #Installing react-webcam
           *npm install react-webcam
-     #Installing Tenserflow.js
-          *npm install @tensorflow/tfjs
-     #Installing Tenserflow model for Detecting Pose(Posenet)
-          *npm install @tensorflow-models/posenet
+     #Creating webcam component
+          * created WebcamFeed.tsx in src/components
